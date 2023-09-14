@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+.logo {
+  max-width: 100px;
+  height: auto;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+.menu-item {
+  flex: 1;
+  text-align: center;
+  padding: 10px;
+  border-top: 1px solid #999;
+  border-bottom: 1px solid #999;
+}
+
+h1 {
+  font-size: 64px;
+  color: black;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.card{
+  width: 300px;
+  display: inline-block;
+  margin: 0 20px;
+}
+
+.d-block{
+  display: block;
+}
+
+.detail{
+  font-size: 14px;
+  color: #999;
+}
+
+.body-card{
+  display: flex;
+  justify-content: space-between;
+}
+
+.body-card span {
+  color: #999;
+}
